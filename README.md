@@ -1,0 +1,2 @@
+# duncan
+treino em javascript
