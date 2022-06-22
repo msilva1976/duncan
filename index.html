@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duncan's Just-In-Time donuts</title>
+    <link rel="stylesheet" type="text/css" href=" donuts.css">
+    <script type="donuts.js"></script>
+</head>
+<body>
+    <div id=""frame>
+        <form name="orderform" action="donuts.php" method="post">
+            <div class="field">
+                Nome:<input type="text" id="cakedonuts" name="cakedonuts" value="" onchange="updateOrder();"/>
+            </div><br>
+            <div class="field">
+                Dunuts com cobertura:<input type="text" id="cakedonuts" name="cakedonuts" value="" onchange="updateOrder();"/>
+            </div><br>
+
+            <div class="field">
+                Dunuts simples:<input type="text" id="glazeddonuts" name="glazeddonuts" value="" onchange="updateOrder();"/>
+            </div>
+            <br>
+            <div class="field">
+                Minutos até a entrega:<input type="text" id="cakedonuts" name="cakedonuts" value="" onchange="updateOrder();"/>
+            </div>
+            <br>
+            <div class="field">
+                <input type="button" value="Place Order" onclick="placeOrder(this.form);">
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
